@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+header nav {
+    min-width: 320px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #57cc99;
+}
+header nav li {
+    list-style: none;
+    display: inline-flex;
+    margin-right: 10px;
+}
+header .facebook-logo {
+    background-image: url('/Assets/facebook-circular-logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+header .instagram-logo {
+    background-image: url('/Assets/instagram.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+header .twitter-logo {
+    background-image: url('/Assets/twitter.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+header section{
+    width: 100%;
+    height: 30px;
+    background-color: #c7f9cc;
+}
+main {
+    width: 100%;
+    min-width: 320px;
+    height: 100vh;
+    background-image: url(/Assets/niclas-illg-FJ5e_2f96h4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main h1 {
+    padding-top: 60px;
+    color: #80ed99;
+    text-align: center;
+}
+main .main-button {
+    position: absolute;
+    left: calc(50% - 30px);
+    margin-top: 50px;
+    background-color: blanchedalmond;
+    font-size: 2rem;
+}
